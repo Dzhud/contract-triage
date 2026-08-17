@@ -1,0 +1,11 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+This Mutual Non-Disclosure Agreement is made between Acme Ltd and FarReach GmbH.
+
+1. Purpose. The parties may share Confidential Information for any and all purposes they see fit.
+
+2. Confidentiality. Each party shall protect the other's Confidential Information. These obligations shall remain in force in perpetuity and shall never expire.
+
+3. Governing Law. This Agreement shall be governed by the laws of Germany.
+
+4. Remedies. Injunctive relief shall be available for breach.

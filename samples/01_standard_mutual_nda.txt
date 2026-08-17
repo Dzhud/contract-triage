@@ -1,0 +1,11 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+This Mutual Non-Disclosure Agreement is entered into between Acme Ltd and Counterparty Inc.
+
+1. Purpose. The parties wish to explore a potential business relationship and may disclose Confidential Information solely for the purpose of evaluating that relationship.
+
+2. Confidentiality. Each party shall keep the other's Confidential Information secret and use it only for the stated purpose. The obligations of confidentiality shall continue for a period of three (3) years from the date of disclosure.
+
+3. Governing Law. This Agreement shall be governed by the laws of England and Wales.
+
+4. Remedies. The parties agree that damages may not be an adequate remedy and that injunctive relief shall be available for any breach.

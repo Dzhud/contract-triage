@@ -1,0 +1,14 @@
+CUSTOMER ORDER FORM
+
+Customer: BigCo PLC
+Supplier: Acme Ltd
+Product: Acme Platform - Annual Subscription
+Price: GBP 24,000 per year
+
+Term. This order is for an initial term of twelve (12) months and renews automatically for successive twelve-month periods.
+
+Payment. Invoices are payable within thirty (30) days.
+
+Liability. The Supplier's liability under this order form shall be unlimited and uncapped for all losses howsoever arising.
+
+Intellectual Property. Each party retains ownership of its pre-existing intellectual property.

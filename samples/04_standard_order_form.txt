@@ -1,0 +1,14 @@
+CUSTOMER ORDER FORM
+
+Customer: MidCo Ltd
+Supplier: Acme Ltd
+Product: Acme Platform - Annual Subscription
+Price: GBP 12,000 per year
+
+Term. Initial term of twelve (12) months, renewing annually unless cancelled with thirty (30) days written notice.
+
+Payment. Invoices payable within thirty (30) days of the invoice date.
+
+Liability. Each party's total liability is capped at the fees paid in the twelve (12) months preceding the claim.
+
+Intellectual Property. Each party retains ownership of its own pre-existing intellectual property.

@@ -1,0 +1,28 @@
+{
+  "01_standard_mutual_nda.txt": {
+    "expected_type": "mutual_nda",
+    "expected_recommendation": "AUTO_OK",
+    "note": "Textbook boilerplate NDA. Should clear without a human."
+  },
+  "02_nda_long_term.txt": {
+    "expected_type": "mutual_nda",
+    "expected_recommendation": "REVIEW",
+    "min_acceptable": "REVIEW",
+    "note": "Perpetual term + foreign law + broad purpose. Must NOT be AUTO_OK."
+  },
+  "03_order_form_uncapped_liability.txt": {
+    "expected_type": "order_form",
+    "expected_recommendation": "ESCALATE",
+    "note": "Uncapped liability is high-risk. Must escalate to a human."
+  },
+  "04_standard_order_form.txt": {
+    "expected_type": "order_form",
+    "expected_recommendation": "AUTO_OK",
+    "note": "Standard order form matching all playbook positions."
+  },
+  "05_unknown_document.txt": {
+    "expected_type": "unknown",
+    "expected_recommendation": "ESCALATE",
+    "note": "Not a contract we handle. Must not be waved through."
+  }
+}

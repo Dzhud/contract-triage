@@ -1,0 +1,76 @@
+{
+  "mutual_nda": {
+    "description": "Mutual non-disclosure agreement",
+    "standard_positions": [
+      {
+        "id": "nda_term",
+        "clause": "confidentiality_term",
+        "standard": "Confidentiality obligations last 3 years from disclosure.",
+        "acceptable_range": "2 to 5 years",
+        "known_redline": "If term exceeds 5 years or is perpetual, request reduction to 3 years.",
+        "risk_if_deviates": "medium"
+      },
+      {
+        "id": "nda_law",
+        "clause": "governing_law",
+        "standard": "Governed by the laws of England and Wales.",
+        "acceptable_range": "England and Wales; Scotland acceptable",
+        "known_redline": "If foreign governing law, flag for legal — we prefer England and Wales.",
+        "risk_if_deviates": "medium"
+      },
+      {
+        "id": "nda_purpose",
+        "clause": "permitted_purpose",
+        "standard": "Confidential information used solely for the stated business purpose.",
+        "acceptable_range": "Any narrowly-defined business purpose",
+        "known_redline": "If purpose is broad or undefined, request it be narrowed.",
+        "risk_if_deviates": "low"
+      },
+      {
+        "id": "nda_injunction",
+        "clause": "remedies",
+        "standard": "Injunctive relief available for breach.",
+        "acceptable_range": "Standard",
+        "known_redline": "Usually acceptable as-is.",
+        "risk_if_deviates": "low"
+      }
+    ]
+  },
+  "order_form": {
+    "description": "Customer order form / small commercial order",
+    "standard_positions": [
+      {
+        "id": "of_liability",
+        "clause": "liability_cap",
+        "standard": "Liability capped at fees paid in the prior 12 months.",
+        "acceptable_range": "12 months' fees; up to 24 months acceptable",
+        "known_redline": "If uncapped or a large multiple of fees, escalate to legal.",
+        "risk_if_deviates": "high"
+      },
+      {
+        "id": "of_payment",
+        "clause": "payment_terms",
+        "standard": "Payment due within 30 days of invoice.",
+        "acceptable_range": "30 to 60 days",
+        "known_redline": "If beyond 60 days, request 30-day terms.",
+        "risk_if_deviates": "medium"
+      },
+      {
+        "id": "of_term",
+        "clause": "term_and_renewal",
+        "standard": "12-month term, renewing annually unless cancelled with 30 days notice.",
+        "acceptable_range": "12 months; auto-renew acceptable with notice window",
+        "known_redline": "If auto-renew has no notice window, request one.",
+        "risk_if_deviates": "medium"
+      },
+      {
+        "id": "of_ip",
+        "clause": "intellectual_property",
+        "standard": "Each party retains its own pre-existing IP.",
+        "acceptable_range": "Standard",
+        "known_redline": "If customer claims ownership of our IP, escalate to legal.",
+        "risk_if_deviates": "high"
+      }
+    ]
+  }
+}

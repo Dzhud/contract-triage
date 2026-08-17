@@ -1,0 +1,4 @@
+anthropic>=0.39.0     # Claude API (set LLM_PROVIDER=anthropic)
+pypdf>=4.0.0          # read PDF contracts
+python-docx>=1.1.0    # read DOCX contracts
+# llama-cpp-python    # uncomment to run a local GGUF model (privacy option)
