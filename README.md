@@ -114,10 +114,6 @@ path: a clean NDA (should clear), an NDA with a perpetual term and foreign law
 clean order form (should clear), and a non-contract document (must not be waved
 through).
 
-This is the part I'd invest most in for a real deployment: a proper labelled
-corpus, tracking false-clear rate as the primary metric, and re-running it every
-time the prompts, playbook or model change — so we can *see* whether a change
-made the system more or less trustworthy, rather than guessing.
 
 ---
 
@@ -146,41 +142,6 @@ open*, not a claim that tiny local models are production-ready.)
 Provider loyalty is a trap; the interface is there so we can always move to
 whatever earns its place.
 
----
-
-## Honest limitations
-
-This is a one-day prototype. What it is **not** yet, and what a real version
-would need:
-
-- **Not a lawyer.** It flags and suggests; it never approves. Every high-risk or
-  unusual contract still reaches a human.
-- **Extraction can be wrong.** LLMs can misread or hallucinate a clause. That's
-  why high-risk clauses escalate even when the model *thinks* they're fine, and
-  why the eval tracks false clears.
-- **The playbook is small and hand-written.** In reality it would be built with
-  the legal team from their actual standard positions and past redlines, and
-  version-controlled as those positions evolve.
-- **Two contract types only** (NDA, order form). The pattern extends to more, but
-  each needs its own playbook and eval cases.
-- **No redline *insertion* into the document yet** — it suggests the edit rather
-  than producing a tracked-changes file. That's the obvious next build, and a
-  high-value one.
-- **Confidentiality/PII** handling (redaction, on-prem models, retention) would
-  need real thought before touching live contracts.
-
----
-
-## What I'd build next
-
-In rough priority order:
-1. Build the playbook *with* the legal team from real past redlines, and grow the
-   eval corpus from their actual queue.
-2. Track false-clear rate as the headline metric over a larger labelled set.
-3. Generate an actual redlined document (tracked changes) for `REVIEW` items.
-4. Add a human-in-the-loop feedback capture, so each lawyer correction improves
-   the playbook — the system gets better at exactly the redlines this team sees.
-5. Evaluate on-prem models seriously for the confidentiality win.
 
 ---
 
